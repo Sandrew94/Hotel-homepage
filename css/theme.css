@@ -1,0 +1,52 @@
+.bg-darkblue {
+    background-color: #0A223D;
+}
+
+.bg-darkred {
+   background-color: #EC1F46;
+}
+
+
+.bg-grey {
+    background-color: #333333;;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-gold {
+    background: #F2994A;;
+}
+
+.bg-white-all {
+    background-color: #F5FAFE;
+}
+
+
+.gradiend-slider {
+    background-color: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+}
+
+
+.bg-newsletter {
+    background: rgba(10, 34, 61, 0.8);
+}
+
+.bg-gradient-active {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+}
+
+
+
+.c-grey {
+    color: #333333;
+}
+
+.c-white {
+    color: #FFFFFF;
+}
+
+.c-red {
+    color: #EC1F46;
+}

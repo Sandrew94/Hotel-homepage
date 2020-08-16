@@ -1,0 +1,82 @@
+{
+  "_from": "@fortawesome/fontawesome-free@5.5.0-1",
+  "_id": "@fortawesome/fontawesome-free@5.5.0-1",
+  "_inBundle": false,
+  "_integrity": "sha512-LLhH8q4UNjC4GwSXD1MYhD/cjJmQPMjh5Qnau962FOVcRMtDYCF+zOLs1bcIocFDUj69Pe05YY5YWgYwV5K8XA==",
+  "_location": "/@fortawesome/fontawesome-free",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@fortawesome/fontawesome-free@5.5.0-1",
+    "name": "@fortawesome/fontawesome-free",
+    "escapedName": "@fortawesome%2ffontawesome-free",
+    "scope": "@fortawesome",
+    "rawSpec": "5.5.0-1",
+    "saveSpec": null,
+    "fetchSpec": "5.5.0-1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.5.0-1.tgz",
+  "_shasum": "a1ea1748d042bf9e44775ee4bd9a8891ee619bba",
+  "_spec": "@fortawesome/fontawesome-free@5.5.0-1",
+  "_where": "C:\\Users\\santi\\Dropbox\\Il mio PC (DESKTOP-05MNE9J)\\Documents\\PERSONAL\\Dashboard-exercise",
+  "author": {
+    "name": "Dave Gandy",
+    "email": "dave@fontawesome.com",
+    "url": "http://twitter.com/davegandy"
+  },
+  "bugs": {
+    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Brian Talbot",
+      "url": "http://twitter.com/talbs"
+    },
+    {
+      "name": "Travis Chase",
+      "url": "http://twitter.com/supercodepoet"
+    },
+    {
+      "name": "Rob Madole",
+      "url": "http://twitter.com/robmadole"
+    },
+    {
+      "name": "Geremia Taglialatela",
+      "url": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Mike Wilkerson",
+      "url": "http://twitter.com/mw77"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "The iconic font, CSS, and SVG framework",
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://fontawesome.com",
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "svg",
+    "bootstrap"
+  ],
+  "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+  "main": "js/fontawesome.js",
+  "name": "@fortawesome/fontawesome-free",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "style": "css/fontawesome.css",
+  "version": "5.5.0-1"
+}
