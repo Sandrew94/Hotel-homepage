@@ -16,16 +16,15 @@
 }
 
 .bg-gold {
-    background: #F2994A;;
+    background: #F2994A;
+}
+
+.c-gold {
+    color: #F2994A;
 }
 
 .bg-white-all {
     background-color: #F5FAFE;
-}
-
-
-.gradiend-slider {
-    background-color: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
 }
 
 

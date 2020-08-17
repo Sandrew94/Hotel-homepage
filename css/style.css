@@ -4,6 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Muli; 
 }
 
 .container {
@@ -13,13 +14,16 @@ body {
 }
 
 .dimension {
-    width: 80%;
+    width: 100%;
 }
 
 /* Header-container */
 
 .header-container {
     height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-header {
@@ -32,6 +36,7 @@ body {
     font-size: 12px;
     line-height: 13px;
     font-weight: 500;
+    width: 80%;
 }
 
 .h-1-l {
@@ -62,8 +67,12 @@ body {
 .best-t-plan {
     display: flex;
     justify-content: space-between;
-    margin: 1.5rem;
     align-items: center;
+    /* padding: 1.5rem; */
+    height: 120px;
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .best-text {
@@ -131,13 +140,263 @@ body {
     height: 40px;
 }
 
+
+/********NAV BAR *****/
+
+.navbar {
+    width: 100%;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    margin: 0 9rem 0 9rem;
+    text-transform: uppercase;
+}
+
+.dimension1 {
+    width: 80%;
+}
+
 /* Header-container-end */
 
 .body-container {
     height: 1650px;
-    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
 }
 
+.body-menu {
+    height: 50px;
+    padding-top: 18px;
+}
+
+.body-menu span {
+    font-family: Muli;
+    font-size: 10px;
+    line-height: 13px;
+}
+/********************/
+
+
+.name-hotel {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars i {
+    font-size: 8px;
+}
+
+.title-h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text-offer {
+    margin-left: 1rem;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+
+.add-info {    
+    margin-top: 5px;
+}
+
+.add-info span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+/******** Container-body-left END/ **********/
+
+.container-right {
+    display: flex;
+    align-items: center;
+}
+
+.rated-stars {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.first {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.second {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+/************ END BODY HEADER ********/
+
+.image-hotel {    
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-slider {
+    width: 728px;
+    height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), 
+    url('../images/grand-hilton-hotel.jpg');
+    background-size: cover;
+}
+/************************/
+
+.map-price {
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-hotel {
+    width: 350px;
+    height: 210px;
+}
+
+.map-hotel {
+    width: 347px;
+    height: 213px;
+    background-image: url('../images/grand-hilton-hotel-map.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/****************************************/
+
+.price-hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.first-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-left {
+    margin: 2rem 0 0 2rem;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.text-1 {    
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.text-2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.text-3 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.text-4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 1rem;
+}
+
+.info-right {
+    margin: 2rem 2rem 0 0;
+}
+
+.info-prenotazione {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.info-prenotazione .ico-pre {
+    padding-right: 1rem;
+    
+}
+
+.info-dimension {
+    margin-top: 3rem;
+}
+
+.p-r {
+    padding-right: 1rem;
+}
+
+
+/***************************************/
+
+.second-info {
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 1rem;
+    width: 80%;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+/******** SLIDER SECTION END ***********/
+
+.nav-hotel {
+    margin-top: 4rem;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.second-menu {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 1rem;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.second-menu:hover { 
+    border-bottom-color: red;
+    color: #EC1F46;
+}
+
+/*****************NAV HOTEL END**********/
+
+.package-summary {
+    height: 842px;
+    background-color: khaki;
+}
+
+
+
+
+/* Body container END */ 
 .package-container {
     height: 1250px;
     background-color: darkgray;
