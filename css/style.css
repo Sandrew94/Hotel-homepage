@@ -493,10 +493,182 @@ body {
 /********* PACKAGE SUMMARY END*************/
 
 /* Body container END */ 
+
+
 .package-container {
     height: 1250px;
-    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
 }
+/*****************************************/
+.mid-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.mid-box-1 {
+    /* width: 730px; */
+    width: 70%;
+    max-height: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.img-hotel {
+    background-image: url('../images/hotel-blue-haven.jpg');
+    background-size: cover;
+    width: 50%;
+}
+
+.information-hotel {
+    width: 50%;
+    
+}
+
+.header-text span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.description-hotel {
+    font-size: 14px;
+    line-height: 160.6%;
+    text-align: justify;
+    }
+
+.container-hotelinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.4rem;
+    max-height: 500px;
+    height: 95%;
+}
+
+.price-footer-hotel {
+    margin-bottom: 2rem;
+}
+
+.container-home {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.cancel-price {
+    margin-top: 5rem;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+}
+
+.text {
+    padding-left: 1rem;
+    
+}
+
+.position-hotel {
+    padding-top: 1rem;
+}
+
+
+
+.price-footer-hotel {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.price-left {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+.button-right button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid darkred;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+/************************************/
+
+.mid-box-2 {
+    width: 350px;
+    max-height: 500px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+
+.first-top-box {
+    background-image: url('../images/lux-belle-more.jpg');
+    background-size: cover;
+    height: 50%;
+}
+
+.cancel-little-box {
+    margin-top: 2rem;
+}
+
+.price-footer-change {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+/*************************************/
+
+.end-box {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-box-1 {
+    height: 500px;
+    width: 350px;
+}
+
+.bg-img-white-palace {
+    background-image: url('../images/white-palace.jpg');
+    background-size: cover;
+    height: 50%;
+}
+
+.bg-img-luxury {
+    background-image: url('../images/luxury-place.jpg');
+    background-size: cover;
+    height: 50%;
+}
+
+.bg-img-hotel-5-stars {
+    background-image: url('../images/hotel-five-star.jpg');
+    background-size: cover;
+    height: 50%;
+}
+
+.end-box-2 {
+    background-color: darkkhaki;
+    width: 350px;
+}
+
+.end-box-3 {
+    background-color: darkslategrey;
+    width: 350px;
+}
+
+
+/********************* PACKAGE CONTAINER END *************/
 
 .people-container {
     height: 550px;
