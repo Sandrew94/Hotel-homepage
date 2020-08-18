@@ -36,7 +36,9 @@
     background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
 }
 
-
+.bg-white {
+    background-color: #fff;
+}
 
 .c-grey {
     color: #333333;

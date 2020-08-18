@@ -384,17 +384,113 @@ body {
 .second-menu:hover { 
     border-bottom-color: red;
     color: #EC1F46;
+    cursor: pointer;
 }
 
 /*****************NAV HOTEL END**********/
 
 .package-summary {
     height: 842px;
-    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h1-title {
+    max-height: 2rem;
+}
+
+.he-mini-box {
+    padding: 1rem 5rem 1rem 1rem;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.he-mini-box h1 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.package-summary-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pack-height {
+    display: flex;
+    flex-direction: column;
 }
 
 
+.box-lists {
+    display: flex;
+    justify-content: space-between;
+}
 
+.text-list {
+    margin-left: 1rem;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.container-checklist {
+    /* padding: 2rem 2rem 1rem 2rem; */
+    padding: 0.7rem;
+}
+
+
+/*********** OFFER BOX ************/
+
+.display-icon-true {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/************** package summary details *********/
+
+.w-100 {
+    width: 100%;
+}
+
+.package-summary-2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-list-container {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.container-checklist-2 {
+    padding: 0.5rem;
+}
+
+.title-box {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.margin-r {
+    margin-right: 4.5rem;
+}
+
+.margin-l {
+    margin-left: 6rem;
+}
+
+.dimension-packheigth {
+    max-width: 538px;
+}
+
+.dimension-min-packheigth {
+    min-width: 538px;
+}
+
+
+/********* PACKAGE SUMMARY END*************/
 
 /* Body container END */ 
 .package-container {
