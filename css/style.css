@@ -67,7 +67,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1.5rem; */
     height: 120px;
     width: 80%;
     font-size: 14px;
@@ -75,7 +74,7 @@ body {
 }
 
 .best-text {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     font-size: 24px;
     line-height: 24px;
     font-family: 'Luckiest Guy', cursive;
