@@ -29,6 +29,7 @@ body {
 .info-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 60px;
     font-style: normal;
     font-size: 12px;
@@ -74,6 +75,7 @@ body {
 }
 
 .best-text {
+    padding-left: 1rem;
     font-size: 24px;
     line-height: 24px;
     font-family: 'Luckiest Guy', cursive;
@@ -875,6 +877,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-right: 1rem;
 
 }
 
@@ -1119,3 +1122,31 @@ body {
         font-size: 16px;
     }
 } */
+
+
+@media screen and (max-width: 1440px) {
+    .dimension1 {
+        width: 90%;
+    }
+
+    .dimension {
+
+    }
+
+    .best-t-plan {
+        width: 90%;
+    }
+
+    .info-header {
+        width: 95%;
+    }
+
+    .container-nav {
+        margin: 0 5rem 0 5rem;
+        width: 90%;
+    }
+
+    .textinput {
+        width: 94%;
+    }
+}
