@@ -139,7 +139,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 14%;
-    margin-right: 1rem;
 }
 
 
@@ -530,11 +529,12 @@ body {
     background-image: url('../images/hotel-blue-haven.jpg');
     background-size: cover;
     width: 50%;
+    border-radius: 8px 0 0 8px;
 }
 
 .information-hotel {
     width: 50%;
-    
+    border-radius: 0 8px 8px 0;    
 }
 
 .header-text span {
@@ -623,6 +623,14 @@ body {
     background-image: url('../images/lux-belle-more.jpg');
     background-size: cover;
     height: 50%;
+}
+
+.second-bottom-box {
+    border-radius: 0 0 8px 8px;
+}
+
+.border-rad-img {
+    border-radius: 8px 8px 0 0;
 }
 
 .cancel-little-box {
@@ -1083,6 +1091,9 @@ body {
 
 
 @media screen and (max-width: 1440px) {
+    .h-2-r {
+        margin-right: 0;
+    }
     .dimension1 {
         width: 90%;
     }
