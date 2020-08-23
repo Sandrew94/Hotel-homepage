@@ -80,9 +80,8 @@ body {
 }
 
 /*********************************/
-.best-search {
-    display: flex;
-    
+.best-search label {
+    display: flex;    
 }
 
 .form {
@@ -804,9 +803,12 @@ body {
 }
 
 .form-newsletter {
-    display: flex;
     border-radius: 4px;
     margin-right: 5rem;
+}
+
+.form-newsletter label {
+    display: flex;
 }
 
 .form-newsletter input {
