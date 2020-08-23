@@ -1027,11 +1027,31 @@ body {
     border-radius: 4px;
 }
 
-#w3review {
-    resize: none;
-    border-radius: 4px;
+
+.container-textarea {
+    max-width: 820px;
+}
+.comment {
+    float: left;
+    width: 100%;
+    height: auto;    
+}
+.comment-text-area {
+    float: left;
+    width: 100%;
+    height: auto;
 }
 
+.textinput {
+    padding: 5px;
+    float: left;
+    width: 100%;
+    min-height: 90px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
 .border-0 {
     border: 0;
 }
