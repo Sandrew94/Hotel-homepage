@@ -52,7 +52,8 @@ body {
     margin-right: 3rem;
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 25%;    
+    padding-bottom: 1.5rem;
 }
 
 .dimension-icon {
@@ -124,9 +125,11 @@ body {
     margin-bottom: -10px;
     position: relative;
     border-radius: 50%;
-    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    font-weight: 400;
     font-size: 10px;
-    line-height: 13px;
+    justify-content: center;
 }
 
 
@@ -230,13 +233,13 @@ body {
 }
 
 .first {
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 8px;
     line-height: 10px;
 }
 
 .second {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 14px;
     line-height: 18px;
 }
@@ -256,6 +259,7 @@ body {
     background-image: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), 
     url('../images/grand-hilton-hotel.jpg');
     background-size: cover;
+    border-radius: 8px;
 }
 /************************/
 
@@ -271,6 +275,7 @@ body {
 .price-hotel {
     width: 350px;
     height: 210px;
+    border-radius: 8px;
 }
 
 .map-hotel {
@@ -428,6 +433,10 @@ body {
     flex-direction: column;
 }
 
+.true-list-left {
+    width: 55%;
+}
+
 
 .box-lists {
     padding-top: 10px;
@@ -452,6 +461,11 @@ body {
 .display-icon-true {
     display: flex;
     justify-content: space-between;
+}
+
+.icon-true-dimension {
+    margin-left: 2rem;
+    font-size: 10px;
 }
 
 
@@ -517,7 +531,7 @@ body {
 
 .mid-box-1 {
     /* width: 730px; */
-    width: 70%;
+    width: 65%;
     max-height: 500px;
     height: 500px;
     display: flex;
@@ -526,7 +540,7 @@ body {
 }
 
 .mid-box-1-right {
-    width: 25%;
+    width: 30%;
 }
 
 .img-hotel {
@@ -655,13 +669,13 @@ body {
 }
 
 .end-box1 {
-    width: 25%;
+    width: 30%;
 }
 
 .bg-img-white-palace {
     background-image: url('../images/white-palace.jpg');
-    background-size: cover;
     height: 50%;
+    background-size: cover;
 }
 
 .bg-img-luxury {
@@ -671,7 +685,7 @@ body {
 }
 
 .bg-img-hotel-5-stars {
-    background-image: url('../images/hotel-five-star.jpg');
+    background-image: url('../images/img-svg/img-hotel5stars.svg');
     background-size: cover;
     height: 50%;
 }
